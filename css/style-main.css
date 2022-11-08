@@ -18,7 +18,7 @@ body{
 }
 .buttonstyle {
     background-color: rgba(146, 154, 167, 0.907);
-    
+  
 }
 .box {
     /*location of the box-pizza*/
@@ -41,6 +41,8 @@ body{
     background-color: rgb(60, 63, 63);
    
 }
+
 a{
     font-size: 20px;
+    color: whitesmoke;
 }
