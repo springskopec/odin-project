@@ -1,0 +1,6 @@
+/* whole page style*/
+body{
+    background-image: url(../img/food.png);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
