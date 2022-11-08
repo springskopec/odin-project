@@ -4,3 +4,80 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+
+h2 {
+    background-color: rgb(219, 211, 211);
+    color: rgb(110, 158, 213);
+    width: 500px;
+    padding: 10px 10px;
+
+    /*font styling*/
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(175, 211, 199);
+    color: rgb(158, 155, 155);
+    width: 200px;
+    margin: 10px 10px;
+    /* font styling*/
+    font: 15px;
+    text-align: center;
+
+}
+
+
+
+.headline {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    color: rgb(152, 155, 172);
+}
+
+img{
+   width: 1000px;
+   height: auto;
+   margin: 10px 10px ;
+   border: solid 15px rgb(110, 158, 213);
+   border-right: solid 17px rgb(187, 181, 181);
+}
+
+.text {
+    display: inline-block;
+    text-align: justify;
+    color: rgb(230, 203, 148);
+}
+
+.box {
+    /* styling of div*/
+    background-color: grey;
+
+    /*positioning of div*/
+    width: 700px;
+    margin: 5px 10px 5px ;
+    padding: 5px 15px;
+    border: 10px solid rgb(248, 248, 248);
+
+}
+
+button {
+   background-color:  rgba(64, 129, 172, 0.907);
+   width: 170px;
+   margin: 5px 1700px;
+}
+a {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+li { 
+    background-color: rgb(187, 228, 227);
+    color: rgb(117, 116, 113);
+    width: 530px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border: 2px black solid;
+}
