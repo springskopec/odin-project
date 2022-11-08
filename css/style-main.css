@@ -1,0 +1,46 @@
+/* whole page style*/
+body{
+    color: rgb(230, 203, 148);
+    background-image: url(../img/food.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+/* h1 */
+.headline {
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(152, 155, 172);
+
+}
+.buttonstyle {
+    background-color: rgba(146, 154, 167, 0.907);
+    
+}
+.box {
+    /*location of the box-pizza*/
+    width: 300px;
+    margin: 10px 700px 10px ;
+    border: 5px rgb(123, 135, 160) solid;
+    padding: 20px 100px 20px;
+
+    /* styling of the text inside */
+    text-align: center;
+    background-color: rgb(159, 149, 144);
+}
+
+.chicken {
+    background-color: rgb(242, 245, 245);
+    
+}
+
+.pesto {
+    background-color: rgb(60, 63, 63);
+   
+}
+a{
+    font-size: 20px;
+}
