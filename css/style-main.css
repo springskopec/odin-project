@@ -1,4 +1,4 @@
-/* whole page style*/
+/* body styling - roots */
 body{
     color: rgb(230, 203, 148);
     background-image: url(../img/food.png);
@@ -7,19 +7,21 @@ body{
     
 }
 
-/* h1 */
+/* h1 - it is basicly useless class but for fun and process of learning*/
 .headline {
     font-size: 90px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace !important;
     font-weight: 900;
     text-align: center;
     color: rgb(152, 155, 172);
 
 }
+/* styling of button*/
 .buttonstyle {
     background-color: rgba(146, 154, 167, 0.907);
   
 }
+/*divs with names and links*/
 .box {
     /*location of the box-pizza*/
     width: 300px;
@@ -31,7 +33,7 @@ body{
     text-align: center;
     background-color: rgb(159, 149, 144);
 }
-
+/* these to elemnts are used for change of color of background*/
 .chicken {
     background-color: rgb(242, 245, 245);
     
@@ -41,13 +43,13 @@ body{
     background-color: rgb(60, 63, 63);
    
 }
-
+/* work on links*/
 a{
     font-size: 20px;
     color: whitesmoke;
     text-decoration: none;
 }
-
+/* lol almost as good as javascript ^^ */
 a:hover, a:focus {
     color: brown;
 }

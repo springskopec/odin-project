@@ -1,10 +1,10 @@
-/* whole page style*/
+/* body style -start with roosts */
 body{
     background-image: url(../img/food.png);
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
-
+/* styling of paragraphs "is it a word!" */
 h2 {
     background-color: rgb(219, 211, 211);
     color: rgb(110, 158, 213);
@@ -28,7 +28,7 @@ h3 {
 }
 
 
-
+/* h1 styling - used this class in main page styling*/
 .headline {
     text-align: center;
     font-size: 90px;
@@ -36,6 +36,10 @@ h3 {
     color: rgb(152, 155, 172);
 }
 
+/* styling for picture - still strugling with quality of the pics and size !
+ - they are different on all pages
+
+*/
 img{
    width: 800px;
    height: auto;
@@ -44,12 +48,13 @@ img{
    border-right: solid 17px rgb(187, 181, 181);
 }
 
+/* managing here style for <p> */
 .text {
     display: inline-block;
     text-align: justify;
     color: rgb(230, 203, 148);
 }
-
+/*<divs> styling - it is same for all side pages */
 .box {
     /* styling of div*/
     background-color: grey;
@@ -61,6 +66,11 @@ img{
     border: 10px solid rgb(248, 248, 248);
 
 }
+/* button  and external links styling 
+
+- I think that a:pseudoblabla best thing I have learnt so faar !
+
+*/
 
 button {
    background-color:  rgba(64, 129, 172, 0.907);
@@ -80,6 +90,9 @@ a:focus {
     color: brown;
 }
 
+/* and of course unordered list 
+
+- I migt use divs here but kinda feels as it separated on the site */
 
 li { 
     background-color: rgb(187, 228, 227);
