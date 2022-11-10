@@ -19,7 +19,9 @@ h2 {
 h3 {
     background-color: rgb(255, 255, 255);
     color: rgb(158, 155, 155);
-    width: 200px;
+
+    width: fit-content;
+    padding: 0px 5px;
     margin: 10px 10px;
     /* font styling*/
     font: 15px;
@@ -94,11 +96,38 @@ a:focus {
 
 - I migt use divs here but kinda feels as it separated on the site */
 
-li { 
+
+ul {
+list-style:disc;
+background-color: rgb(172, 189, 189);
+list-style-position:outside;
+
+width: fit-content;
+padding: 50px;
+border: solid 5px whitesmoke;
+}
+
+.ul-chicken {
+    list-style-image: url(../img/chicken-icon.png);
+}
+
+.ul-pizza {
+    list-style-image: url(../img/pizza-icon.png);
+}
+
+.ul-pesto {
+    list-style-image: url(../img/avocado-icon.png);
+}
+
+
+ul li { 
     background-color: rgb(187, 228, 227);
     color: rgb(117, 116, 113);
-    width: 530px;
-    margin: 5px 5px;
-    padding: 5px 10px;
+
+
+
+    width: fit-content;
+    padding: 0px 15px 18px;
+    margin:10px;
     border: 2px rgb(255, 255, 255) solid;
 }

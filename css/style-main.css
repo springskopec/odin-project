@@ -9,7 +9,7 @@ body{
 
 /* h1 - it is basicly useless class but for fun and process of learning*/
 .headline {
-    font-size: 90px;
+    font-size: 100px;
     font-family: 'Courier New', Courier, monospace !important;
     font-weight: 900;
     text-align: center;
@@ -24,10 +24,11 @@ body{
 /*divs with names and links*/
 .box {
     /*location of the box-pizza*/
-    width: 300px;
-    margin: 10px 700px 10px ;
+    width: 450px;
+    margin: auto ;
+    margin-bottom: 20px;
     border: 5px rgb(123, 135, 160) solid;
-    padding: 20px 100px 20px;
+    padding: 50px 100px;
 
     /* styling of the text inside */
     text-align: center;
