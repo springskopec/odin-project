@@ -71,6 +71,13 @@ button {
 a {
     font-size: 25px;
     color: whitesmoke;
+    text-decoration: none;
+}
+
+
+a:hover, 
+a:focus {
+    color: brown;
 }
 
 
