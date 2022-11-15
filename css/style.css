@@ -1,0 +1,81 @@
+body {
+    background-color: antiquewhite;
+    background-image: url(../img/background-body.webp);
+
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: antiquewhite;
+    background-image: url(../img/background.webp);
+    color: rgba(141, 212, 234, 0.698);
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+
+    padding: 50px 50px;
+    margin-bottom: 180px;
+    border-bottom: 10px solid rgba(141, 212, 234, 0.698);
+}
+
+#row {
+    width: 80%;
+    margin: 0 auto;
+
+    color: rgba(234, 141, 141, 0.698);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.column {
+    float: left;
+    width: 33.33%;
+
+    
+    text-align: center;
+}
+
+#row::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+footer {
+    background-color: aliceblue;
+    background-image: url(../img/background-footer.webp);
+    color: rgba(157, 141, 234, 0.698);
+
+    margin-top: 180px;
+    padding-top: 81px ;
+    padding-bottom: 81px;
+    border-top: 10px rgba(157, 141, 234, 0.698) dashed;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    background-color: rgb(221, 80, 80);
+    background-image: url(../img/background.webp);
+
+
+    border: 5px dotted rgba(234, 141, 141, 0.698);
+    padding: 5px;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 45px;
+    color:rgba(234, 141, 141, 0.698);
+}
+
+a:hover {
+    color: rgba(141, 212, 234, 0.698);
+}
