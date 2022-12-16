@@ -1,16 +1,18 @@
 body {
     background-color: antiquewhite;
-    background-image: url(../img/background-body.webp);
+    background-image: url(../img/background-footer.webp);
 
-    font-size: 20px;
+    font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
+/*different styling of each areas*/
+
 header {
     background-color: antiquewhite;
-    background-image: url(../img/background.webp);
-    color: rgba(141, 212, 234, 0.698);
+    background-image: url(../img/background-body.webp);
+    color:  rgb(136, 136, 16) ;
 
     text-transform: uppercase;
     text-align: center;
@@ -18,64 +20,87 @@ header {
 
     padding: 50px 50px;
     margin-bottom: 180px;
-    border-bottom: 10px solid rgba(141, 212, 234, 0.698);
+    border-bottom: 15px double rgb(136, 136, 16) ;
 }
 
-#row {
-    width: 80%;
-    margin: 0 auto;
+/* start of the middle area*/
 
-    color: rgba(234, 141, 141, 0.698);
-    font-weight: 500;
+
+.container {
+    display: flex;
+    flex-direction: row;
     text-transform: uppercase;
+    text-shadow: 1px;
+    color: rgb(150, 150, 150);
+    
 }
+
 .column {
-    float: left;
-    width: 33.33%;
-
-    
+    flex: 2;
+    box-sizing: border-box;
     text-align: center;
+   
 }
 
-#row::after {
-    content: "";
-    display: table;
-    clear: both;
-    
+.column-one {
+    order: 2;
 }
+.column-two {
+    order: 1;
+}
+.column-three {
+    order: 3;
+}
+
+/* end of middle area*/
 
 footer {
+    clear:both;
     background-color: aliceblue;
-    background-image: url(../img/background-footer.webp);
-    color: rgba(157, 141, 234, 0.698);
+    background-image: url(../img/background-body.webp);
+    color:  rgb(136, 136, 16);
 
     margin-top: 180px;
     padding-top: 81px ;
     padding-bottom: 81px;
-    border-top: 10px rgba(157, 141, 234, 0.698) dashed;
+    border-top: 15px double rgb(136, 136, 16) ;
 
     text-transform: uppercase;
     text-align: center;
     font-size: 35px;
 }
 
+/* button and link styling*/
+
 button {
-    background-color: rgb(221, 80, 80);
-    background-image: url(../img/background.webp);
+    background-color: rgb(230, 230, 230);
+    background-image: url(../img/background-body.webp);
 
 
-    border: 5px dotted rgba(234, 141, 141, 0.698);
-    padding: 5px;
+    border: 5px dashed rgb(255, 255, 255);
+    padding: 5px 10px;
 
 
+}
+
+.foster-button {
+    background-image: url(../img/background-footer.webp);
 }
 
 a {
     text-decoration: none;
-    font-size: 45px;
-    color:rgba(234, 141, 141, 0.698);
+    font-size: 20px;
+    color: rgb(95, 95, 9);
 }
 
 a:hover {
-    color: rgba(141, 212, 234, 0.698);
+    color: rgba(234, 146, 141, 0.698);
+}
+
+.foster-link {
+color: rgb(95, 95, 9);
+}
+
+.foster-link:hover {
+    color: rgba(234, 146, 141, 0.698);
 }

@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(236, 236, 236);
+    background-image: url(../img/background-one.webp);
+
+    font-size: 21px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(236, 236, 236);
+    background-image: url(../img/background-four.webp);
+    color:  rgb(78, 78, 62);
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+
+    padding: 50px 50px;
+    margin-bottom: 100px;
+    border-bottom: 10px solid rgb(78, 78, 62) ;
+   
+
+}
+
+.greeding {
+    color:  rgba(107, 107, 107, 0.684);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+/* introduction and image */
+.container-intro {
+    display: flex;
+    gap: 3rem;
+    margin: 0px 20px;
+    
+
+}
+
+.column {
+    flex-basis: 100%;
+    
+   
+}
+
+.column-intro-one {
+    order: 2;
+    
+  
+}
+.column-intro-two {
+    order: 1;
+    
+    
+}
+
+
+
+.intro {
+    /*H2 About the Dobrutka*/
+    font-size: 45px;
+    display: table; 
+    margin: 50px auto;
+    padding: 5px;
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 102, 102);
+    border: 5px solid rgb(100, 100, 100);
+   
+
+  
+
+}
+/*end of introduction and image */
+
+img {
+    width: 150px;
+    height: auto;
+    border: solid rgb(97, 97, 97) 10px;
+   
+}
+
+/* ingrediences and instructions */
+
+.container {
+    display: flex;
+    gap: 2rem;
+    margin: 0px 20px;
+    width: 0 auto;
+
+
+}
+
+.row {
+    flex: 1;
+    
+   
+}
+
+.row-one {
+    order: 2;
+   
+}
+.row-two {
+    order: 1;
+    margin-left: 50px;
+    
+}
+ul li {
+    text-align:left;
+    margin-bottom: 10px;
+    margin-left: 150px;
+
+    list-style-position: inside;
+    list-style-image: url(../img/icon-unlist.png);
+    
+    background-color: white;
+    border: grey 5px dotted;
+    width: fit-content;
+    padding: 1px 15px;
+    
+}
+
+.middle {
+    /*H2 Preparation&Ingrediences*/
+    font-size: 45px;
+    display: table; 
+    margin: 50px auto;
+    padding: 5px;
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 102, 102);
+    border: 5px solid rgb(100, 100, 100);
+    
+  
+}
+/*end of ingrediences and instructions*/
+
+footer {
+
+    clear:both;
+    background-color: rgba(255, 255, 255, 0.384);
+    background-image: url(../img/background-four.webp);
+    color:  rgb(78, 78, 62);
+
+    margin-top: 180px;
+    padding-top: 81px ;
+    padding-bottom: 81px;
+    border-top: 10px solid rgb(78, 78, 62) ;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.foster-link {
+    color: rgb(95, 95, 9);
+    text-decoration: none;
+    font-size: 20px;
+    }
+    
+ .foster-link:hover {
+    color: rgba(234, 146, 141, 0.698);
+    }
+
+.foster-button {
+    background-image: url(../img/background-footer.webp); 
+    border:5px dashed rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+
+
+
+/* this is the start of footer*/
